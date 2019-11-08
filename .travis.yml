@@ -5,4 +5,4 @@ services:
 before_install: 
   - sh .travis/deploy_docker_image.sh
 script:
-  - docker run -e CI=true scrapebbc:latest
+  - docker run -e CI=true uselessalias217/scrapebbc:latest
