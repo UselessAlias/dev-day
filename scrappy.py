@@ -14,5 +14,5 @@ title = data.title.string
 module_path = os.path.dirname(__file__)
 
 
-with open(os.path.join(module_path, 'scrappedtitles.txt'), 'a') as f:
+with open(os.path.join(module_path, 'data', 'scrappedtitles.txt'), 'a') as f:
     f.write(title)
